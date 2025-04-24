@@ -11,7 +11,7 @@ class Laptop:
       
     def about(self):
         
-        return f"self.brand,self.model,self.processor,self.ram,self.storage"
+        return f"Brand:{self.brand}, Model:{self.model},Processor:{self.processor},Ram:{self.ram},Storage:{self.storage}"
     
     
 laptop1=Laptop("HP","OMEN 16","Intel Core i7","16GB DDR5","1TB SSD")
@@ -23,5 +23,13 @@ laptop6=Laptop("Lenovo","ThinkPad","Intel core i3","8GB","512 GB ")
 laptop7=Laptop("Microsoft","Surface Laptop","Intel core i7","8GB","512 GB")
 laptop8=Laptop("Aces","Aspire 5","Ryzen 5","8GB","512GB")
 
-         
+print(laptop1.about())
+print(laptop2.about())
+print(laptop3.about())
+print(laptop4.about())
+print(laptop5.about())
+print(laptop6.about())
+print(laptop7.about())
+print(laptop8.about())
+
 
