@@ -11,6 +11,8 @@ for i in range(len(string)):
         count=1
 res+=temp+str(count)
 print(res)      
-    
+
+
+
 
     
