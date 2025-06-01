@@ -242,8 +242,32 @@ data=[
   }
 ]
 
+# for item in data:
+#     if item["price"]>=100:
+#         item["discount"]=item["price"]*0.1
+#         print(item["discount"])
+    
+    
+    
+# total_price=0
+# for item in data:
+#     total_price+=item["price"]*item["rating"]["count"]
+# print(f"Total price of all items:{total_price}")
 
 
 
+# for item in data:
+#     if item["rating"]["rate"] >=4.0:
+#         print(item["id"],item["price"],item["rating"]["rate"])
 
+
+cate=input("Enter the category\n")
+count=0
+for item in data:
+    if item["category"]==cate:
+        print(item)
+        count+=1
+if count==0: 
+    print("Category does not exist")
+    
 
