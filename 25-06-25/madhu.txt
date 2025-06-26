@@ -1,9 +1,0 @@
-File handling in Python allows you to create, read, write, and delete files.
-The built-in open() function is used to open a file.
-Files can be opened in different modes like 'r' (read), 'w' (write), 'a' (append), and 'b' (binary).
-Use file.read() to read the entire content or file.readline() to read line by line.
-Use file.write() to write text to a file.
-Always close the file after operations using file.close() to free up system resources.
-You can use with open(...) as f: to handle files safely (auto-closes the file).
-File handling can also be used to work with .txt, .csv, .json, and other file types.
-Proper file handling ensures data integrity and prevents file corruption or data loss.
