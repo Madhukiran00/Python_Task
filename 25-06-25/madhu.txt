@@ -5,6 +5,5 @@ Use file.read() to read the entire content or file.readline() to read line by li
 Use file.write() to write text to a file.
 Always close the file after operations using file.close() to free up system resources.
 You can use with open(...) as f: to handle files safely (auto-closes the file).
-'w' mode overwrites existing content, while 'a' adds to the file without removing old content.
 File handling can also be used to work with .txt, .csv, .json, and other file types.
 Proper file handling ensures data integrity and prevents file corruption or data loss.
