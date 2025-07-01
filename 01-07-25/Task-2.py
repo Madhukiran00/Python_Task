@@ -1,11 +1,13 @@
-from datetime import datetime,timedelta
 
-# hours=int(input("Enter hours: "))
-# minutes=(input("Enter minutes: "))
-
-
-cur_time=int(datetime.now().strftime("%H,%M,%S"))   
-
-print(datetime.(cur_time) + timedelta(hour=2))
-  
     
+    
+from datetime import datetime, timedelta
+
+print("⏰..Set Alaram..⏰")
+hour=int(input("Enter Hours u want to sleep: "))
+minute=int(input("Enter Minutes u want to sleep: "))
+cur_time = datetime.now() 
+new_time = cur_time + timedelta(hours=hour,minutes=minute)
+
+print("You have only {0} hours {1} minutes ".format(hour,minute))
+print("You wake up at :", new_time.strftime("%H:%M:%S"))
